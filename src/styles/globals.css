@@ -26,7 +26,7 @@ body {
   flex-direction: column;
   justify-content: center;
   overflow-x: hidden;
-  background-color: #fdeddf;
+  background-color: #F8EDEB;
 }
 
 code {
@@ -56,7 +56,7 @@ a:active {
   margin-left: auto;
   margin-right: auto;
 
-  background-color: #fce3ce;
+  background-color: #FAE1DD;
 }
 
 .content {
