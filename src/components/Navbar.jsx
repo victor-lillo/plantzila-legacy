@@ -34,7 +34,6 @@ function Navbar({ navbarClass }) {
                             alt="Logo"
                             title="Logo"
                         />
-
                     </div>
 
                     <div className="hamburguer-container">
