@@ -9,14 +9,13 @@ import avatar from '../../public/img/avatar.jpg';
 
 
 import Book from '../../public/img/book-svg.js';
-
 import Ebook from '../../public/img/ebook-svg.js';
 import Heart from '../../public/img/heart-svg.js';
 import Download from '../../public/img/download-svg.js';
 
 
-
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
 
@@ -69,9 +68,9 @@ export default function Home() {
                         text={"Apoya mi contenido"}
                         svg={<Heart />}
                         // deeppink, magenta
-                        iconColor='green'
+                        iconColor='Green'
+                        link={"https://ko-fi.com/plantzila"}
                     />
-
 
                 </div>
 
