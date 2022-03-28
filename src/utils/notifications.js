@@ -10,8 +10,8 @@ const noti_download = () => {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "dark",
-        icon: "📕"
+        theme: "light",
+        icon: "🍀"
     });
 }
 

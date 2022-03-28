@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { ToastContainer } from 'react-toastify';
+
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -15,7 +17,9 @@ import Download from '../../public/img/download-svg.js';
 
 
 import styles from '../styles/Home.module.css'
+import 'react-toastify/dist/ReactToastify.css';
 
+const pdfUrl = '/pdf/test.pdf'
 
 export default function Home() {
 
@@ -52,6 +56,7 @@ export default function Home() {
                     <DisplayItem
                         text={"Descarga gratis «El cultivo del philodendron baby»"}
                         svg={<Download />}
+                        pdfUrl={pdfUrl}
                     />
 
                     <DisplayItem
@@ -78,6 +83,7 @@ export default function Home() {
 
 
             </div>
+            <ToastContainer />
 
         </Layout>
     );
