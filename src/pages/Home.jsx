@@ -3,10 +3,20 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Layout from '../components/Layout';
-import logo from '../../public/logo.png';
+import DisplayItem from '../components/DisplayItem';
+
+import avatar from '../../public/img/avatar.jpg';
+
+
+import Book from '../../public/img/book-svg.js';
+
+import Ebook from '../../public/img/ebook-svg.js';
+import Heart from '../../public/img/heart-svg.js';
+import Download from '../../public/img/download-svg.js';
+
+
 
 import styles from '../styles/Home.module.css'
-
 
 export default function Home() {
 
@@ -24,7 +34,7 @@ export default function Home() {
                 <div className={styles.header}>
                     <div className={styles.header_img}>
                         <Image
-                            src={logo}
+                            src={avatar}
                             alt="Logo"
                             title="Logo"
                         />
@@ -39,19 +49,29 @@ export default function Home() {
                 </div>
 
                 <div className={styles.buttons_container}>
-                    <div className={styles.button_module}>
-                        Descarga el cultivo del philodendron baby (gratuito)
-                    </div>
 
-                    <div className={styles.button_module}>
-                        hazte con la guía EL LENGUANE DE LAS PLANTAS BABY (papel)
-                    </div>
-                    <div className={styles.button_module}>
-                        EL LENGUAJE DE LAS PLANRAS BABY (ebook)
-                    </div>
-                    <div className={styles.button_module}>
-                        Invítame a un café
-                    </div>
+                    <DisplayItem
+                        text={"Descarga gratis «El cultivo del philodendron baby»"}
+                        svg={<Download />}
+                    />
+
+                    <DisplayItem
+                        text={"Hazte con «El lenguaje de las plantas baby» (edición en papel)"}
+                        svg={<Book />}
+                    />
+
+                    <DisplayItem
+                        text="Hazte con «El lenguaje de las plantas baby» (edición digital)"
+                        svg={<Ebook />}
+                    />
+
+                    <DisplayItem
+                        text={"Apoya mi contenido"}
+                        svg={<Heart />}
+                        iconColor='red'
+                    />
+
+
                 </div>
 
 
