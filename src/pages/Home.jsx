@@ -68,7 +68,8 @@ export default function Home() {
                     <DisplayItem
                         text={"Apoya mi contenido"}
                         svg={<Heart />}
-                        iconColor='red'
+                        // deeppink, magenta
+                        iconColor='green'
                     />
 
 
