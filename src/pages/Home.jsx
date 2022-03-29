@@ -9,7 +9,6 @@ import DisplayItem from '../components/DisplayItem';
 
 import avatar from '../../public/img/avatar.jpg';
 
-
 import Instagram from '../../public/img/instagram-svg.js';
 import Book from '../../public/img/book-svg.js';
 import Ebook from '../../public/img/ebook-svg.js';
