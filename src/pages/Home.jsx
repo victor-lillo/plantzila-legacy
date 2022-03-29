@@ -10,6 +10,7 @@ import DisplayItem from '../components/DisplayItem';
 import avatar from '../../public/img/avatar.jpg';
 
 
+import Instagram from '../../public/img/instagram-svg.js';
 import Book from '../../public/img/book-svg.js';
 import Ebook from '../../public/img/ebook-svg.js';
 import Heart from '../../public/img/heart-svg.js';
@@ -49,6 +50,16 @@ export default function Home() {
                     <div className={styles.header_text}>
                         Soy Plant.zila y me gustan las plantas y no sé qué de plantas.
                     </div>
+                </div>
+
+                <div className={styles.social_container}>
+                    <a
+                        className={styles.social_icon}
+                        href="https://instagram.com/plant.zila"
+                        target='blank'
+                    >
+                        <Instagram width={65} height={65} />
+                    </a>
                 </div>
 
                 <div className={styles.buttons_container}>
