@@ -65,27 +65,29 @@ export default function Home() {
                 <div className={styles.buttons_container}>
 
                     <DisplayItem
+
                         text={"Descarga gratis «El cultivo del philodendron baby»"}
-                        svg={<Download />}
+                        svg={<Download width={40} height={40} />}
                         link={"https://mailchi.mp/9cd90d6cbad6/philodendronbaby"}
                     />
 
                     <DisplayItem
                         text={"Hazte con «El lenguaje de las plantas baby» (edición en papel)"}
-                        svg={<Book />}
+                        svg={<Book width={40} height={40} />}
                     />
 
                     <DisplayItem
                         text="Hazte con «El lenguaje de las plantas baby» (edición digital)"
-                        svg={<Ebook />}
+                        svg={<Ebook width={40} height={40} />}
                     />
 
                     <DisplayItem
                         text={"Apoya mi contenido"}
-                        svg={<Heart />}
+                        svg={<Heart width={40} height={40} />}
                         // deeppink, magenta
                         iconColor='Green'
                         link={"https://ko-fi.com/plantzila"}
+                        className={styles.last}
                     />
 
                 </div>

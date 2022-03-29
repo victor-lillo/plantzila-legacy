@@ -51,6 +51,11 @@
     gap: 20px;
 }
 
+.last {
+
+    margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 768px) {}
 
 @media (hover: hover) {

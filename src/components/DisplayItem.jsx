@@ -48,7 +48,7 @@ const Text = styled.div`
 //     console.log('%c Un PDF más añadido a una lista que no leerás.', 'background: gray; color: white');
 // }
 
-export default function DisplayItem({ text, svg, iconColor, link, pdfUrl }) {
+export default function DisplayItem({ text, svg, iconColor, link, pdfUrl, className }) {
 
 
     return (
@@ -56,6 +56,7 @@ export default function DisplayItem({ text, svg, iconColor, link, pdfUrl }) {
         <ItemContainer
             // onClick={downloadBook}
             //Siempre va a tener href, ya sea de descarga o enlace
+            className={className}
             href={link ? link : pdfUrl}
             target={link ? 'blank' : undefined}
             download={pdfUrl ? true : false}
