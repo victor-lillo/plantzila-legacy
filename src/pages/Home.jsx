@@ -18,7 +18,7 @@ import Download from '../../public/img/download-svg.js';
 
 import styles from '../styles/Home.module.css'
 import 'react-toastify/dist/ReactToastify.css';
-import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
+import '../../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 const pdfUrl = '/pdf/test.pdf'
 
@@ -31,9 +31,6 @@ export default function Home() {
                 <title>Plantzila | Enlaces</title>
                 <meta name="description" content="Home blablabla"></meta>
             </Head>
-
-
-
 
             <div className={styles.container}>
 
