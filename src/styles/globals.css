@@ -47,21 +47,20 @@ a:active {
 .body {
   width: 65%;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+ left: 0;
+ right: 0;
+ margin-left: auto;
+ margin-right: auto;
 
   background-color: #FAE1DD;
 }
 
 .content {
   width: 80%;
-
   display: flex;
   flex-direction: column;
   align-self: center;
