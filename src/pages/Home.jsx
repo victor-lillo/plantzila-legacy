@@ -65,7 +65,6 @@ export default function Home() {
                 <div className={styles.buttons_container}>
 
                     <DisplayItem
-
                         text={"Descarga gratis «El cultivo del philodendron baby»"}
                         svg={<Download width={40} height={40} />}
                         link={"https://mailchi.mp/9cd90d6cbad6/philodendronbaby"}

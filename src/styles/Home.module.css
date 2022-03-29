@@ -29,6 +29,7 @@
 .header_title {
     font-weight: bold;
     font-size: 2rem;
+    color: #2B3B32;
 }
 
 
@@ -37,6 +38,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.social_icon {
+    fill: #2B3B32;
 }
 
 .buttons_container {

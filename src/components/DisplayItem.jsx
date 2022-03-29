@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const { noti_download } = require("../utils/notifications.js").default;
 
-
 const ItemContainer = styled.a`
+    /* color:${({ color }) => color}; */
     display: flex;
     align-items: center ;
     width: 90%;
@@ -18,7 +18,7 @@ const ItemContainer = styled.a`
 
     background-color: #B8CCC0;
     color: #2B3B32;
-    color:${({ color }) => color};
+    
 
     :hover{
         transform: translateY(3px) ;
@@ -37,11 +37,11 @@ const Text = styled.div`
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
+    color: inherit;
 
     justify-content: center;
     text-align: center;
 `
-
 
 // const downloadBook = () => {
 //     noti_download()
@@ -49,7 +49,6 @@ const Text = styled.div`
 // }
 
 export default function DisplayItem({ text, svg, iconColor, link, pdfUrl, className }) {
-
 
     return (
 
@@ -69,8 +68,6 @@ export default function DisplayItem({ text, svg, iconColor, link, pdfUrl, classN
             <Text>{text}</Text>
 
         </ItemContainer>
-
-
     );
 }
 
