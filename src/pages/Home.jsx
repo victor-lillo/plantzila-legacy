@@ -29,8 +29,8 @@ export default function Home() {
 
         <Layout navbar={false}>
             <Head>
-                <title>Plantzila | Enlaces</title>
-                <meta name="description" content="Home blablabla"></meta>
+                <title> @plant.zila | Enlaces</title>
+                <meta name="description" content="Soy @plant.zila y aquí puedes encontrar todos mis enlaces. :)"></meta>
             </Head>
 
             <div className={styles.container}>
