@@ -43,10 +43,10 @@ const Text = styled.div`
 `
 
 
-const downloadBook = () => {
-    noti_download()
-    console.log('%c Un PDF más añadido a una lista que no leerás.', 'background: gray; color: white');
-}
+// const downloadBook = () => {
+//     noti_download()
+//     console.log('%c Un PDF más añadido a una lista que no leerás.', 'background: gray; color: white');
+// }
 
 export default function DisplayItem({ text, svg, iconColor, link, pdfUrl }) {
 
@@ -56,11 +56,10 @@ export default function DisplayItem({ text, svg, iconColor, link, pdfUrl }) {
     return (
 
         <ItemContainer
-            onClick={downloadBook}
+            // onClick={downloadBook}
             //Siempre va a tener href, ya sea de descarga o enlace
             href={link ? link : pdfUrl}
             target={link ? 'blank' : undefined}
-
             download={pdfUrl ? true : false}
         >
 

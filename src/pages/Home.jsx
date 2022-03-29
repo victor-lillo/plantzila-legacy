@@ -56,7 +56,7 @@ export default function Home() {
                     <DisplayItem
                         text={"Descarga gratis «El cultivo del philodendron baby»"}
                         svg={<Download />}
-                        pdfUrl={pdfUrl}
+                        link={"https://mailchi.mp/9cd90d6cbad6/philodendronbaby"}
                     />
 
                     <DisplayItem
