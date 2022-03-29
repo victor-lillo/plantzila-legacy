@@ -18,6 +18,7 @@ import Download from '../../public/img/download-svg.js';
 
 import styles from '../styles/Home.module.css'
 import 'react-toastify/dist/ReactToastify.css';
+import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 const pdfUrl = '/pdf/test.pdf'
 
@@ -27,12 +28,14 @@ export default function Home() {
 
         <Layout navbar={false}>
             <Head>
-                <title>Home</title>
+                <title>Plantzila | Enlaces</title>
                 <meta name="description" content="Home blablabla"></meta>
             </Head>
 
-            <div className={styles.container}>
 
+
+
+            <div className={styles.container}>
 
                 <div className={styles.header}>
                     <div className={styles.header_img}>

@@ -51,8 +51,6 @@ const Text = styled.div`
 export default function DisplayItem({ text, svg, iconColor, link, pdfUrl }) {
 
 
-
-
     return (
 
         <ItemContainer

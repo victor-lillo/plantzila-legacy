@@ -11,6 +11,7 @@
     "github-update": "git add . && git commit -m 'commit' && git push && node dev/discord.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "autoprefixer": "^10.4.2",
     "axios": "^0.25.0",
     "html-react-parser": "^1.4.5",
