@@ -47,7 +47,12 @@ export default function Home() {
                         @Plant.zila
                     </div>
                     <div className={styles.header_text}>
-                        Soy Plant.zila y me gustan las plantas y no sé qué de plantas.
+                        <p>
+                            Soy Cris, bióloga de formación, plantlover de vocación
+                        </p>
+                        <p>
+                            ¿Me ayudas a divulgar la pasión por las plantas? 💚
+                        </p>
                     </div>
                 </div>
 
