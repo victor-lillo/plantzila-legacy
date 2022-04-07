@@ -38,8 +38,8 @@ export default function Home() {
                     <div className={styles.header_img}>
                         <Image
                             src={avatar}
-                            alt="Logo"
-                            title="Logo"
+                            alt="@Plant.zila"
+                            title="@Plant.zila"
                         />
                     </div>
 
