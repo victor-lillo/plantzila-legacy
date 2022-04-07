@@ -72,12 +72,13 @@ export default function Home() {
                     <DisplayItem
                         text={"Hazte con «El lenguaje de las plantas baby» (edición en papel)"}
                         svg={<Book width={40} height={40} />}
+                        link={"http://p.wallapop.com/p/45847027?_pid=wi&_uid=45847027"}
                     />
 
-                    <DisplayItem
+                    {/* <DisplayItem
                         text="Hazte con «El lenguaje de las plantas baby» (edición digital)"
                         svg={<Ebook width={40} height={40} />}
-                    />
+                    /> */}
 
                     <DisplayItem
                         text={"Apoya mi contenido"}
