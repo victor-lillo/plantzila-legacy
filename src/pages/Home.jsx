@@ -11,7 +11,7 @@ import avatar from '../../public/img/avatar.jpg';
 
 import Instagram from '../../public/img/instagram-svg.js';
 import Book from '../../public/img/book-svg.js';
-import Ebook from '../../public/img/ebook-svg.js';
+import Product from '../../public/img/product-svg.js';
 import Heart from '../../public/img/heart-svg.js';
 import Download from '../../public/img/download-svg.js';
 
@@ -80,10 +80,11 @@ export default function Home() {
                         link={"https://planteka.co/products/plantzila/el-lenguaje-de-las-plantas-baby"}
                     />
 
-                    {/* <DisplayItem
-                        text="Hazte con «El lenguaje de las plantas baby» (edición digital)"
-                        svg={<Ebook width={40} height={40} />}
-                    /> */}
+                    <DisplayItem
+                        text={"Mis productos recomendados"}
+                        svg={<Product width={44} height={40} />}
+                        link={"https://peoople.app/plantzila"}
+                    />
 
                     <DisplayItem
                         text={"Apoya mi contenido"}
