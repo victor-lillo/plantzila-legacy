@@ -75,9 +75,9 @@ export default function Home() {
                     />
 
                     <DisplayItem
-                        text={"Hazte con «El lenguaje de las plantas baby» (edición en papel)"}
+                        text={"Hazte con «El lenguaje de las plantas baby» (eBook)"}
                         svg={<Book width={40} height={40} />}
-                        link={"https://planteka.co/products/plantzila/el-lenguaje-de-las-plantas-baby"}
+                        link={"https://ko-fi.com/s/4c976c68f7"}
                     />
 
                     <DisplayItem
