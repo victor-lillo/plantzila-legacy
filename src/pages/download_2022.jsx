@@ -21,7 +21,7 @@ export default function DownloadPage() {
 
     const clicked = () => {
         toast('Gracias por descargar mi ebook, espero que te guste 😊', {
-            position: "bottom-right",
+            position: "top-right",
             icon: '🌱',
             autoClose: 5000,
             hideProgressBar: false,
