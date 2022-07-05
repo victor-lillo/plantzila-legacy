@@ -56,8 +56,25 @@
 }
 
 .last {
-
     margin-bottom: 50px;
+}
+
+.download_button {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    align-self: center;
+    padding: 2rem 2rem;
+    width: fit-content;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: #B8CCC0;
+    color: #2B3B32;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.download_button:active {
+    background-color: black;
 }
 
 @media only screen and (max-width: 768px) {}

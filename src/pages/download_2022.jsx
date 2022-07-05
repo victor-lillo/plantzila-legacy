@@ -1,27 +1,36 @@
 import React from 'react'
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 
 import Head from 'next/head'
 import Image from 'next/image'
 
 import Layout from '../components/Layout';
-import DisplayItem from '../components/DisplayItem';
+
 
 import avatar from '../../public/img/avatar.jpg';
 
 import Instagram from '../../public/img/instagram-svg.js';
-import Book from '../../public/img/book-svg.js';
-import Product from '../../public/img/product-svg.js';
-import Heart from '../../public/img/heart-svg.js';
-import Download from '../../public/img/download-svg.js';
-
 
 import styles from '../styles/Home.module.css'
 import 'react-toastify/dist/ReactToastify.css';
 import '../../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
+const pdfUrl = '/pdf/test.pdf'
 
-export default function Home() {
+export default function DownloadPage() {
+
+    const clicked = () => {
+        toast('Gracias por descargar mi ebook, espero que te guste 😊', {
+            position: "bottom-right",
+            icon: '🌱',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+        });
+    }
 
     return (
 
@@ -65,38 +74,15 @@ export default function Home() {
                     </a>
                 </div>
 
-                <div className={styles.buttons_container}>
+                <a
+                    onClick={clicked}
+                    href={'/pdf/test.pdf'}
+                    download
+                    className={styles.download_button}
+                >
+                    Descargar &quot;El lenguaje de las plantas baby&quot;
 
-                    <DisplayItem
-                        text={"Descarga gratis «El cultivo del philodendron baby»"}
-                        svg={<Download width={40} height={40} />}
-                        link={"https://mailchi.mp/9cd90d6cbad6/philodendronbaby"}
-                    />
-
-                    <DisplayItem
-                        text={"Hazte con «El lenguaje de las plantas baby» (eBook)"}
-                        svg={<Book width={40} height={40} />}
-                        link={"https://ko-fi.com/s/4c976c68f7"}
-                    />
-
-                    <DisplayItem
-                        text={"Mis productos recomendados"}
-                        svg={<Product width={44} height={40} />}
-                        link={"https://peoople.app/plantzila"}
-                    />
-
-                    <DisplayItem
-                        text={"Apoya mi contenido"}
-                        svg={<Heart width={40} height={40} />}
-                        // deeppink, magenta
-                        iconColor='Green'
-                        link={"https://ko-fi.com/plantzila"}
-                        className={styles.last}
-                    />
-
-                </div>
-
-
+                </a>
 
 
             </div>
