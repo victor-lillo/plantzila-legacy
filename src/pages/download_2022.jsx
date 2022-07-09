@@ -15,7 +15,7 @@ import styles from '../styles/Home.module.css'
 import 'react-toastify/dist/ReactToastify.css';
 import '../../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
-const pdfUrl = '/pdf/test.pdf'
+const pdfUrl = '/pdf/Cristina López - El lenguaje de las plantas baby (versión digital).pdf'
 
 export default function DownloadPage() {
 
@@ -36,8 +36,8 @@ export default function DownloadPage() {
 
         <Layout navbar={false}>
             <Head>
-                <title> @plant.zila | Enlaces</title>
-                <meta name="description" content="Soy @plant.zila y aquí puedes encontrar todos mis enlaces. :)"></meta>
+                <title> @plant.zila | #SembrArte</title>
+                <meta name="description" content="Soy @plant.zila y aquí puedes encontrar mi ebook. Disponible por tiempo limitado para Hauplant. :)"></meta>
             </Head>
 
             <div className={styles.container}>
@@ -76,15 +76,12 @@ export default function DownloadPage() {
 
                 <a
                     onClick={clicked}
-                    href={'/pdf/test.pdf'}
+                    href={pdfUrl}
                     download
                     className={styles.download_button}
                 >
                     Descargar &quot;El lenguaje de las plantas baby&quot;
-
                 </a>
-
-
             </div>
             <ToastContainer />
 
