@@ -11,7 +11,7 @@ import avatar from '../../public/img/avatar.jpg';
 
 import Instagram from '../../public/img/instagram-svg.js';
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Download.module.css'
 import 'react-toastify/dist/ReactToastify.css';
 import '../../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
