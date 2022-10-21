@@ -1,0 +1,29 @@
+@use '@sass_settings/sizes.scss';
+
+@font-face {
+  font-family: opensans;
+  src: url(../../public/fonts/open_sans/OpenSans-Regular.ttf);
+}
+
+:root {
+  --content-width: 90%;
+  --header-width: 70%;
+  --card-container-width: 92%;
+  --color-dark-1: #1e1e1e;
+  --color-dark-2: #121212;
+  --color-pink-1: #f8edeb;
+  --color-pink-2: #fae1dd;
+  --color-green-1: #b8ccc0;
+  --color-green-2: #688d77;
+  --color-green-3: #2b3b32;
+
+  @media (min-width: sizes.$tablet) {
+    --content-width: 70%;
+    --card-container-width: 85%;
+  }
+
+  @media (min-width: sizes.$desktop) {
+    --content-width: 65%;
+    --card-container-width: 65%;
+  }
+}

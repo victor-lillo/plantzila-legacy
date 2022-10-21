@@ -1,0 +1,99 @@
+@use '@sass_settings/sizes.scss';
+html {
+  height: 100%;
+}
+
+body {
+  font-family: opensans, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100%;
+
+  // Bold is weird with Open Sans, so:
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+  }
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.body-wrapper {
+  background-color: var(--color-pink-1);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: var(--content-width);
+  background-color: var(--color-pink-2);
+  padding: 2rem 0;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  width: var(--header-width);
+
+  &__img {
+    height: 200px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--color-green-3);
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.social-container {
+  align-self: center;
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(3px);
+      fill: var(--color-green-2);
+    }
+  }
+}
+
+.social-icon {
+  fill: var(--color-green-3);
+  fill: inherit;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1.2rem;
+  width: var(--card-container-width);
+}

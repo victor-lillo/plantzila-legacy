@@ -1,0 +1,36 @@
+@use '@sass_settings/sizes.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--color-green-1);
+  padding: 0.8rem 1rem;
+
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(3px);
+      filter: brightness(1.1);
+    }
+  }
+  @media (min-width: sizes.$tablet) {
+    padding: 1rem 1.2rem;
+  }
+}
+
+.text {
+  color: var(--color-green-3);
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: center;
+  text-align: center;
+}
+.icon {
+  width: 2.5rem;
+  display: flex;
+  fill: white;
+}
