@@ -6,20 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "github-first-deploy": "node dev/first-deploy.js && node dev/discord.js",
-    "github-update": "git add . && git commit -m 'commit' && git push && node dev/discord.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "12.3.1",
-    "postcss": "^8.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-toastify": "^9.0.8",
-    "sharp": "^0.31.1",
-    "sitemap": "^7.1.0"
+    "sharp": "^0.31.1"
   },
   "devDependencies": {
+    "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "dotenv": "^16.0.0",
     "eslint": "8.25.0",

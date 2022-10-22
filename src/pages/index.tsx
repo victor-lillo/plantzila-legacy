@@ -15,7 +15,7 @@ import CardItem from '../components/CardItem'
 import { SvgList } from '@types'
 
 export default function Home() {
-  console.log(`%c Hi!`, 'background: #000000; color: #db0a0a')
+  console.log('🥦🌱 Hola, plantlover 🥦🌱')
   return (
     <Layout>
       <Head>
