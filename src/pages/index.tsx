@@ -43,7 +43,7 @@ export default function Home() {
 
         <section className={'cards-container'}>
           <CardItem svg={SvgList.Download} url={'https://mailchi.mp/9cd90d6cbad6/philodendronbaby'}>
-            'Descarga gratis «El cultivo del philodendron baby»'
+            Descarga gratis «El cultivo del philodendron baby»
           </CardItem>
           <CardItem svg={SvgList.Book} url={'https://ko-fi.com/s/4c976c68f7'}>
             Hazte con «El lenguaje de las plantas baby» (eBook)
