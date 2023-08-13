@@ -24,9 +24,7 @@ export default function Home() {
       </Head>
       <div className={'content'}>
         <section className={'header'}>
-          <div className={'header__img'}>
-            <Image src={avatar} alt='@Plant.zila' title='@Plant.zila' />
-          </div>
+          <Image className={'header__img'} src={avatar} alt='@Plant.zila' title='@Plant.zila' />
 
           <div className={'header__title'}>@Plant.zila</div>
           <div className={'header__text'}>
